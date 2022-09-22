@@ -1,0 +1,140 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+}
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 550px;
+    height: 30px;
+
+}
+.header_link {
+    font-size: 18px;
+    color: #828282;
+    text-align: center;
+    text-decoration: none;
+}
+.header_link:hover {
+    color: #070707;
+    text-decoration: underline;
+}
+.header_list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.header_item {
+    margin-right: 40px;
+    list-style-type: none;
+}
+hr {
+    width: 970px;
+    border: 1px solid #828282;
+}
+h1 {
+    width: 300px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    padding-left: 235px;
+}
+.img_man {
+    padding-left: 235px;
+}
+.section_about_me {
+    padding-left: 235px;
+    background: #F6F6F6;
+}
+.about_me {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    padding-left: 400px;
+}
+.text_about_me {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.text_about_me p {
+    color: #070707;
+}
+.heading_skills {
+    padding-left: 635px;
+}
+.skills {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+}
+.pseudo title {
+    font-weight: 400;
+    font-size: 18px;
+}
+.product_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 970px;
+    margin-left: 235px;
+    margin-top: 50px;
+}
+p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+}
+.title_portfolio {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    margin-left: 640px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.fashion_img {
+    margin-left: 235px;
+}
+.link_levis {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.reebok {
+   margin-left: 235px;
+}
+.link_reebok {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.braun {
+    margin-left: 235px;
+}
+.link_braun {
+    font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+}
+.link_levis a {
+    color: #070707;
+}
+.link_reebok a{
+    color: #070707;
+}
+.link_braun a {
+    color: #070707;
+}
+.portfolio {
+    background: #E5E5E5;
+}
